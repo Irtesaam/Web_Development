@@ -1,0 +1,37 @@
+.box{
+    font-size: 50px;
+    text-align: center;
+    background-color: red;
+    color: rgb(255, 255, 255);
+    display: none; /*to hide items and let them appear as per media queries*/
+}
+
+/* media query is like if else of web dev */
+@media (max-width: 300px){
+    #box1{
+        display: block;
+        background-color: cyan;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 500px){
+    #box2{
+        display: block;
+        background-color: blueviolet;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 800px){
+    #box3{
+        display: block;
+        background-color: yellow;
+        color: black;
+    }
+}
+
+@media (min-width: 800px){
+    #box4{
+        display: block;
+        background-color: green;
+    }
+}

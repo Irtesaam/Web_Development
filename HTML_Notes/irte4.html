@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List and tables</title>
+    <a href="/Basic notes/irte3.html" target="_blank">Go to my 3rd website</a>
+</head>
+<body>
+    <!-- lists  -->
+    <ul type="disc"> <!--It has disc, square and circle as its types-->
+        <li>This is the 1st unordered list</li>
+        <li>This is the 2nd unordered list</li>
+        <li>This is the 3rd unordered list having three more different lists</li>
+        <ul> 
+            <li>Another 1</li>
+            <li>Another 2</li> <!--can be useful in nesting lists-->
+            <li>Another 3</li>
+        </ul>
+    </ul>
+    <ol type="A"> <!--type attribute will change the type in which it is ordered. Just write type= and see types-->
+        <li>This is the 1st ordered list</li>
+        <li>This is the 2nd ordered list having three more different lists</li>
+        <ol type="i">
+            <li>Another 1</li>
+            <li>Another 2</li>
+            <li>Another 3</li>
+        </ol>
+        <li>This is the 3rd ordered list</li>
+    </ol>
+    <!-- tables -->
+    <h3>HTML Table</h3>
+    <table>
+        <thead> <!--it will contain the heading of a table like name, roll no. etc-->
+            <tr> <!--it adds a new row into that table-->
+                <th>Name</th> <!--heading text of a table-->
+                <th>Position</th>
+                <th>DOJ</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Alexis</td>
+                <td>Consultant Engineer</td>
+                <td>21/08/2021</td>
+            </tr>
+            <tr>
+                <td>Bombal</td>
+                <td>Service Engineer</td>
+                <td>08/02/2018</td>
+            </tr>
+            <tr>
+                <td>Chuck</td>
+                <td>Product Engineer</td>
+                <td>17/04/2019</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

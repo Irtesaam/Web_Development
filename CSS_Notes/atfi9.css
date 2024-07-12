@@ -1,0 +1,35 @@
+  /*CSS Positions : static(default), absolute, relative, fixed, sticky*/
+  .container{
+    border: 2px solid black;
+    background-color: khaki;
+    height: 9000px;
+}
+.box{
+border: 2px solid red;
+width: 150px;
+height: 150px;
+margin: 2px;
+display: inline-block; /*To take boxes in single line*/
+}
+#box3{
+/*realtive : means realtive to its old position and we use it when we require gap in its previous position*/
+position: relative;
+top: 34px;
+/*position absolute takes posiiton relative to its nearest parent elem*/
+}
+#box1{
+/*absolute : means relative to parent element, it shift and since parent element is div, so it shifts accordingly and no gap is created */
+position: relative;
+top: 50px;
+left: 21px;
+}
+#box2{
+position: fixed; /*While scrolling the position of this block remains same means the position remains same wrt browser*/
+right: 10px;
+bottom: 2px;
+text-align: center;
+}
+#box4{
+position: sticky; /*Basically helps in creating menu which sticks at it position while scrolling */
+top: 2px;
+}

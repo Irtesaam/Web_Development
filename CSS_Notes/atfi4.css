@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(177, 200, 207); /*best way to change anything in background body*/
+    background-image: url(https://img.freepik.com/free-vector/nature-scene-with-river-hills-forest-mountain-landscape-flat-cartoon-style-illustration_1150-37326.jpg?w=2000);
+}
+#img {
+    height: 300px;
+    width: 300px;
+    border: 4px solid blueviolet;
+    margin-left: 22rem;
+    /*This is how you change position of iamge*/
+}
+#theory{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    font-size: medium;
+    color: rgba(21, 13, 13, 0.736);
+}
+ /*choose these things by going to inspect mode*/
+    /*If we applied border, then according to box model we must give padding to wrap the contents inside of it as margin will be outside. Padding will give space from al sides. To avoid it, use padding-left right ,etc*/
+    /*padding-left: 11px; /*To give text appropriate space*/
+    /*padding-right: 11px;
+    padding-top: 2px;
+    padding-bottom: 0px;
+    margin-top: 34px;
+    margin-left: 10px;
+    margin-right: 10px; /*margin is ouside border to give space between paras*/
+    /*We can give padding and margin in one line as : */
+    .container {
+        background-color: #daccad;
+        border: 8px solid rgb(0, 187, 255, 0.685);
+        padding: 6px 26px 8px 23px; /*Top right bottom left*/
+        margin: 34px 10px 0px 210px; /*Use inspect mode to set these*/
+        border-radius: 25px;
+        width: 633px;
+        text-align: center;
+        box-sizing: border-box; /*Text will adjust itself according to padding*/
+    }
+    *{
+        box-sizing: border-box; /* '*' is universal selector and will apply to all element*/
+        margin: 0px;
+        padding: 0px; /*This will make padding and margin to be zero unless changed*/
+        margin-top: 10px;
+        margin-bottom: 10px; /*To give space in top and bottom of webpage and its content*/
+    }
+    /*Padding andar se hti h aur margin bahar se*/

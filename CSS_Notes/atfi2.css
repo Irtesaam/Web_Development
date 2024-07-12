@@ -1,0 +1,21 @@
+p {
+    border: 2px solid darkmagenta;
+}
+.BG {
+    color: white;
+    background-color: black;
+}
+#secpara {
+    color: blue;
+    background-color: red;
+}
+#fstpara {
+    color: aqua;
+}
+#yourspan, footer {
+    background-color: pink;  /* This is how to select multiple selector to target them */
+}
+#myspan, .FG, .AB { 
+    /* This is how to target multiple id and class  */
+    color: hotpink;
+}

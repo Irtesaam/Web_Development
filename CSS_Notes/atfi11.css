@@ -1,0 +1,47 @@
+.container{
+    height: 544px;
+    width: 100%;
+    border: 2px solid black;
+    display: flex; 
+    /* display flex will convert each element of that div as per flexbox  */
+
+    /* properties for flex container */
+
+    /* flex-direction: row; /*by default they are row only*/
+    /* flex-direction: column; /*elements will be in column*/
+    /* flex-direction: row-reverse; will come in row from opposite side */
+    /* previous all are overwritten if latest is not commented*/ 
+    /* flex-wrap: wrap; makes site a bit responsive by wrapping when size gets changed */
+    /* flex-flow: row wrap; writes both of the properties in single line */
+    /* justify-content: center; aligns in center horizontally */
+    /* justify-content: space-between; for putting some space in between and not around corners */
+    /* justify-content: space-around; each element has its space */
+    /* align-items: center; aligns in center vertically */
+
+}
+
+.item{
+    width: 100px;
+    height: 200px;
+    background-color: tomato;
+    border: 2px solid green;
+    margin: 10px;
+    padding: 3px;
+}
+
+/* #item-1{
+    /* order: 2; */
+    /* flex-grow: 2; will take space as much as two boxes when growing */
+/*} */
+
+#item-2{
+    align-self: flex-start;    /*aligns items in flexbox start, end or center*/
+    align-self: flex-end;    
+    align-self: center;    
+}
+
+/* #item-3{ */
+    /* order: 21; will come first as it has high order */
+    /* flex-grow: 3; will take space as much as 3 boxes */
+    /* opp. thing can be used with flex-shrink: ; */
+/* } */

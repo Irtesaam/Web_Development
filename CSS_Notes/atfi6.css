@@ -1,0 +1,43 @@
+.container {
+    border: 2px solid red;
+    background-color: rgb(223, 245, 201);
+    padding: 34px;
+    margin: auto;
+    width: 666px;
+}
+
+.btn {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 6px;
+    font-weight: 300;
+    border-radius: 3px;
+    border: none;
+    /*To remove border of contact us button*/
+    background-color: rgb(240, 193, 203);
+    cursor: pointer;
+    /*To make curson as pointer when put on contact us button*/
+}
+
+a:hover {
+    color: rgb(197, 8, 255);
+    /*To set color of text when cursor is hovered over read more button*/
+    background-color: rgb(255, 246, 246);
+    /*To change bg color of read more button*/
+}
+
+a:visited {
+    color: blue;
+}
+
+a:active {
+    background-color: green;
+}
+
+a {
+    text-decoration: none;
+    /*To remove underline from read more button*/
+}
+
+.btn:hover {
+    background-color: aqua;
+}

@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+}
+
+.card{
+    padding: 23px 12px;
+    margin: 23px 12px;
+    border: 2px solid red;
+    background-color: rgb(232, 187, 129);
+    box-shadow: 7px 9px 10px rgb(53, 194, 53); /*3rd value is blur radius*/
+}
+
+.card h2{
+    text-shadow: 5px 2px 0px white;
+}

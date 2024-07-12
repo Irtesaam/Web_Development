@@ -1,0 +1,59 @@
+.container {
+    background-color: yellowgreen;
+}
+
+.box {
+    background-color: green;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    /*so that animation can move*/
+    animation-name: irte2;
+    animation-duration: 3s;
+    /*lesser the time faster the animation*/
+    animation-iteration-count: 1;
+    /*will happen for only 1 time when page reloads*/
+    /* animation-fill-mode: forwards; */
+    /*after animation it stop right there in forwards*/
+    /* animation-timing-function: ease-out; */
+    /* animation-delay: 1s; waits for 1 sec before animation plays */
+    /* animation-direction: reverse; */
+    /*use animation shorthand to fill all in 1 line*/
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+@keyframes irte1 {
+    from {
+        width: 10vw;
+    }
+
+    to {
+        width: 50vw;
+    }
+}
+
+@keyframes irte2 {
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+
+    25% { /*when 25% animation is completed*/
+        top: 250px;
+        left: 0px;
+    }
+
+    75% {
+        top: 250px;
+        left: 250px;
+    }
+
+    100% {
+        top: 0px;
+        left: 250px;
+    }
+}

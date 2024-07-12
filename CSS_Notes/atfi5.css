@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    background-color: rgb(243, 236, 230);
+}
+p, h3{
+text-align: center;
+}
+body {
+    font-family: 'ubuntu', sans-serif;
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+    /*This prop is used to centre any element*/
+}
+
+.item {
+    border: 3px solid grey;
+    margin: 12px 3px;
+    padding: 12px 3px;
+    background-color: rgb(243, 221, 221);
+}
+
+#fruits {
+    float: left; /*float is not much used nowadays , we use flaxbox*/
+    width: 50%;
+}
+
+#computer {
+    float: left; /*To change float options*/
+    width: 50%
+}
+
+#mobile {
+    width: 50%
+}
+
+#pen {
+    width: 50%
+}
+
+#shoes {
+    width: 50%
+}

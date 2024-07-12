@@ -1,0 +1,35 @@
+.navbar{
+    background-color: rgb(16, 14, 14);
+    border-radius: 29px;
+}
+.navbar ul{
+    overflow: auto; /*This will allow the bg color to be red else the li will overflow the bgcolor*/
+}
+.navbar li{
+    float: left; /*floats the content of li to left*/
+    list-style: none; /*removes the bullets from li*/
+    margin: 7px 16px; /*y axis and x axis resp*/
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+.navbar li a:hover{
+    color: red;
+}
+.search{
+    padding: 3px 21px;
+    float: right;
+    color: red;
+}
+.navbar input{
+    border: 2px solid black;
+    border-radius: 14px;
+    width: 152px;
+    padding: 3px 17px;
+}
+#btn{
+    border: 1px solid black;
+    border-radius: 12px;
+    text-align: center;
+}

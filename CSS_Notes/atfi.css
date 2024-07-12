@@ -1,0 +1,14 @@
+ /* Syntax of CSS is : selector{property: value; } like p{color: blue;} 
+selector is like where to put that property
+In  given eg, all paragraphs will have color blue. To give a specific para a color, give that para an id
+Another eg for multiple prop to multiple tags :
+header, p.intro { background-color : red; border-radius : 3px ; }
+*/
+#para3 { 
+    color: lightgreen   ;
+    background-color: black;
+}
+#para2 { 
+    color: red;
+    background-color: black; 
+}

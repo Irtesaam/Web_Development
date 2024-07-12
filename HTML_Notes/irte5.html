@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <center>
+        <!--used to put things in centre-->
+        <h3>This is HTML forms tutorial</h3>
+        <!--Can be used to fill something from user side like a form for something-->
+        <form action="backend.php">
+            <!--This saves everything in folder backend.php-->
+            <div>
+                <label for="name"> Name : </label>
+                <!--label tag helps in highlighting the box by just clicking on the title-->
+                <input type="text" name="myname" id="name">
+            </div>
+            <div>
+                <!--avoid using br tag for line break and use div tag always-->
+                <label for="role"> Role : </label>
+                <!--text in for attrib of label tag should be same as id attrib of input tag-->
+                <input type="text" name="myrole" id="role">
+            </div>
+            <div>
+                <label for="number"> Salary(in Lpa) : </label>
+                <input type="number" name="mynumber" id="number">
+                <!--No text can be added here-->
+            </div>
+            <div>
+                <label for="mail"> Email : </label>
+                <input type="email" name="myemail" id="mail">
+            </div>
+            <div>
+                <label for="date"> Date : </label>
+                <input type="date" name="mydate" id="date">
+                <!--This gives calender to select date from-->
+            </div>
+            <div>
+                Gender : Male <input type="radio" name="mygender"> Female <input type="radio" name="mygender"> Others
+                <input type="radio" name="mygender">
+                <!-- all files have been named mygender that is same. So we can only select one value for it as 1 file can hold only one value. If the name for the backends have been different, then we can select mutiple of them in browser-->
+            </div>
+            <div>
+                <label for="about"> Write about yourself in brief : <label>
+                        <br><textarea name="mytext" id="about" cols="23" rows="12"></textarea>
+                        <!-- useful for building area for reviews or description  -->
+                        <!--rows changes height of the box and cols changes width of the box-->
+            </div>
+            <div>
+                Are you eligible ? <input type="checkbox" name="myeligibility" checked>
+                <!--If we dont use checked attribute then the eligibilty option will be unchecked by default-->
+                <!-- type checkbox gievs the box to tick -->
+            </div>
+            <div>
+                <label for="car"> Car </label>
+                <select name="mycar" id="car">
+                    <!-- This give the option to select from given choices. It is very useful if theer are too many choices unlike gender  -->
+                    <option value="swf">Swift</option> <!--option are the values that will be shown in the list-->
+                    <option value="ferr">Ferrari</option>
+                    <option value="au" selected>Audi</option> <!--selected will ensure the audi is selected by defualt-->
+                    <option value="bmw">BMW</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <input type="submit" value="Submit now">
+                <!--This forms a button of submit now-->
+                <input type="reset" value="Reset now">
+                <!--This forms a button of reset now-->
+            </div>
+        </form>
+    </center>
+</body>
+
+</html>

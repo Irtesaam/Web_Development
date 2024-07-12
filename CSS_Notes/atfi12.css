@@ -1,0 +1,23 @@
+html{
+    font-size: 25px;
+}
+h1{
+    text-align: center;
+}
+
+.container{
+    font-size: 10px;
+    border: 2px solid red;
+    height: 100vh; /*will ctake entire height. Useful when setting height for something which should take 100% of the page*/
+    width: 100vw;
+}
+
+#first{
+    font-size: 3em; /*3 times of its parent size and changes with it making site responsive*/
+    /* use em when you want the child item to resize with the parnet item */
+}
+
+#second{
+    font-size: 2rem; /*This will depend on the size already set in the code and will stick to it*/
+    padding: 2rem;
+}

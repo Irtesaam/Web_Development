@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+h3{
+    font-family: cursive;
+    margin: 0px;
+    text-align: center; /*For responsive site reason*/
+}
+header{
+    margin: auto; /*header is a block element and we can set its width. If it was inline element, then we cant set its width*/
+    border: 2px solid red;
+    width: 1200px; /*So if we use width with margin:auto, then only the element will be centered*/
+}
+img{
+    display: block; /*display could be block or inline and it basically helps in creating margins, alignment etc*/
+    margin: auto; /*display block means it will take an entire block of space and display inline means whatever is reqiired*/
+    width: 70px; /*img is an inline so change its display to block and then use margin:auto to centre the image*/
+    height: 50px;
+}
+.box{
+    border: 2px solid black;
+    background-color: rgb(214, 210, 210);
+    margin: 4px 0px;
+    padding: 23px;
+    width: 33%;
+    box-sizing: border-box; /*Width remians same else padding and margin can change width*/
+    display: inline-block; /*use this when we need inline display but also wants to change its width*/
+}
+.container{
+    margin: auto;
+    width: 1200px;
+}
